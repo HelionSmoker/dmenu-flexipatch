@@ -5,7 +5,7 @@
  * when including this patch.
  * https://github.com/bakkeby/patches/blob/master/dmenu/dmenu-alpha-5.0_20210725_523aa08.diff
  */
-#define ALPHA_PATCH 0
+#define ALPHA_PATCH 1
 
 /* This adds padding for dmenu in similar fashion to the similarly named patch for dwm. The idea
  * is to have dmenu appear on top of the bar when using said patch in dwm.
@@ -233,7 +233,7 @@
  * it with dots. All data from stdin will be ignored.
  * https://tools.suckless.org/dmenu/patches/password/
  */
-#define PASSWORD_PATCH 0
+#define PASSWORD_PATCH 1
 
 /* This patch allows the selected text to be piped back out with dmenu. This can be useful if you
  * want to display the output of a command on the screen.
@@ -286,7 +286,7 @@
  * result in no matching item.
  * https://tools.suckless.org/dmenu/patches/reject-no-match/
  */
-#define REJECTNOMATCH_PATCH 0
+#define REJECTNOMATCH_PATCH 1
 
 /* The input width used to be relative to the input options prior to commit e1e1de7:
  * https://git.suckless.org/dmenu/commit/e1e1de7b3b8399cba90ddca9613f837b2dbef7b9.html
@@ -361,7 +361,7 @@
  *
  * https://tools.suckless.org/dmenu/patches/xresources/
  */
-#define XRESOURCES_PATCH 0
+#define XRESOURCES_PATCH 1
 
 /* This patch adds options for specifying dmenu window position and width.
  * The center patch takes precedence over the XYW patch if enabled.
