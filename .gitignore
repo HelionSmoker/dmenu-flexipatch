@@ -1,6 +1,4 @@
 *.o
-config.h
 config.fin.h
-patches.h
 dmenu
 stest
