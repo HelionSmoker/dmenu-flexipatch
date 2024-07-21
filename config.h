@@ -38,7 +38,8 @@ static char *fonts[] =
 static const char *fonts[] =
 #endif // XRESOURCES_PATCH
 {
-	"monospace:size=10"
+	"monospace:size=14",
+	"NotoColorEmoji:pixelsize=14:antialias=true:autohint=true",
 };
 #endif // PANGO_PATCH
 #if MANAGED_PATCH
