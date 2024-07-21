@@ -1,0 +1,3 @@
+[submodule "flexipatch-finalizer"]
+	path = flexipatch-finalizer
+	url = https://github.com/bakkeby/flexipatch-finalizer
