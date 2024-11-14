@@ -39,7 +39,7 @@ static const char *fonts[] =
 #endif // XRESOURCES_PATCH
 {
 	"monospace:size=14",
-	"NotoColorEmoji:pixelsize=14:antialias=true:autohint=true",
+	"NotoColorEmoji:pixelsize=24:antialias=true:autohint=true",
 };
 #endif // PANGO_PATCH
 #if MANAGED_PATCH
@@ -152,3 +152,4 @@ static unsigned int border_width = 0;
  */
 static int use_prefix = 1;
 #endif // PREFIXCOMPLETION_PATCH
+
